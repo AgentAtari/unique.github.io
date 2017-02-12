@@ -913,15 +913,8 @@ nav .btn,
 .logo-light {
   display: none;
 }
-nav.nav-centered .logo {
-  max-height: 64px;
-  margin: 64px 0 40px 0;
-}
-nav.bg-dark .logo-light {
-  display: inline;
-}
-nav.bg-dark .logo-dark {
-  display: none;
+
+
 }
 .has-dropdown {
   padding-right: 18px;
