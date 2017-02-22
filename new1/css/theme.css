@@ -386,6 +386,7 @@ h3.uppercase {
 h4.uppercase {
   letter-spacing: 3px;
   margin-right: -3px;
+  padding-top: 45px;
 }
 h5.uppercase {
   letter-spacing: 2px;
