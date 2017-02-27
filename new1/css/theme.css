@@ -742,8 +742,8 @@ footer.bg-dark li,
 }
 .btn:last-child,
 .btn:last-of-type {
-  margin-right: -366px;
-  margin-top: 30px;
+  margin-right: 0px;
+  
 }
 .btn:hover {
   background: #dcdf00;
