@@ -746,7 +746,7 @@ footer.bg-dark li,
   
 }
 .btn:hover {
-  background: #dcdf00;
+  background: #47b475;
   color: #fff;
 }
 .btn-icon {
@@ -784,8 +784,8 @@ footer.bg-dark li,
   min-width: 0;
 }
 .btn-filled {
-  background: #dcdf00;
-  color: #fff;
+  background: #47b475;
+  color: #e8fdff
 }
 .btn-white,
 .image-bg .btn,
@@ -835,7 +835,7 @@ body.btn-rounded .btn {
   color: #222;
 }
 .btn-filled:visited {
-  color: #000;
+  color: #fff;
 }
 .btn.bg-dark {
   color: #fff;
@@ -943,12 +943,12 @@ nav .btn,
   width: auto;
 }
 .menu li a {
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #292929;
-  opacity: 0.5;
+  color: #000;
+
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -5015,7 +5015,7 @@ footer.bg-dark a {
 }
 .mb64 {
   margin-bottom: 25px;
-  padding-top: 25px;
+  padding-top: 8px;
 }
 .mb72 {
   margin-bottom: 72px;
