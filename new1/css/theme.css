@@ -1,4 +1,4 @@
-F/*!
+/*!
 // Contents
 // ------------------------------------------------
 
@@ -108,7 +108,7 @@ hr.short-thick {
   padding-right: 0;
 }
 .list-inline > li:first-child {
-  padding-left: ;
+  padding-left:0 ;
 }
 .bg-primary .list-inline i {
   color: #8ed3ab;
@@ -178,7 +178,7 @@ hr.short-thick {
 /*!---------- 2. MIXINS ----------*/
 .v-align-children {
   display: -webkit-flex;
-  display: -moz-flex;
+  /*display: -moz-flex;*/
   display: -ms-flexbox;
   display: flex;
   align-items: center;
@@ -190,7 +190,7 @@ hr.short-thick {
 }
 .v-align-children-column {
   display: -webkit-flex;
-  display: -moz-flex;
+  /*display: -moz-flex;*/
   display: -ms-flexbox;
   display: flex;
   align-items: center;
@@ -225,7 +225,7 @@ hr.short-thick {
   bottom: 0;
   margin: 0 auto;
   left: 0;
-  right: ;
+  right:0 ;
   z-index: 2;
 }
 .align-top {
@@ -442,7 +442,7 @@ a {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  cursor: poitner;
+  /*cursor: poitner;*/
 }
 .image-bg a,
 .bg-primary a {
@@ -621,7 +621,7 @@ footer.bg-dark li,
 }
 @media all and (max-width: 767px) {
   section {
-    padding: 80px 0;
+    /*padding: 80px 0;*/
   }
 }
 .overlay:before {
@@ -740,7 +740,7 @@ footer.bg-dark li,
   margin-right: 8px;
   margin-bottom: 0px;
 }
-.btn:last-child,
+
 .btn:last-of-type {
   margin-right: 0px;
   
@@ -916,8 +916,6 @@ nav .btn,
   display: none;
 }
 
-
-}
 .has-dropdown {
   padding-right: 18px;
 }
@@ -928,7 +926,7 @@ nav .btn,
   font-size: 11px;
   content: "\e64b";
   font-family: 'themify';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1790,14 +1788,13 @@ input.transparent::-webkit-input-placeholder,
 button.transparent::-webkit-input-placeholder {
   color: #fff;
 }
-input.transparent::-moz-input-placeholder,
-button.transparent::-moz-input-placeholder {
+/*input.transparent::-moz-input-placeholder,button.transparent::-moz-input-placeholder {
   color: #fff;
-}
-input.transparent:-moz-input-placeholder,
+}*/
+/*input.transparent:-moz-input-placeholder,
 button.transparent:-moz-input-placeholder {
   color: #fff;
-}
+}*/
 input.transparent:-ms-input-placeholder,
 button.transparent:-ms-input-placeholder {
   color: #fff;
@@ -2015,7 +2012,7 @@ form.thirds span {
   position: relative;
   top: 16px;
   margin: 0 auto;
-  word-break: break-word;
+  /*word-break: break-word;*/
 }
 .form-error {
   background: #ce3838;
@@ -2188,7 +2185,7 @@ button[type="submit"] .form-loading {
 .accordion-2 .title:before {
   content: "\e622";
   font-family: 'themify';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2570,7 +2567,7 @@ button[type="submit"] .form-loading {
   .page-title-4 .breadcrumb,
   .page-title-2 .breadcrumb {
     float: left;
-    margin-top: 8	px;
+    margin-top: 8px;
   }
 }
 /*!---------- 17. PAGINATION ----------*/
@@ -2861,6 +2858,7 @@ button[type="submit"] .form-loading {
 .page-title-3,
 .page-title-4 {
   height: 240px;
+  margin-bottom: 100px;
 }
 .page-title-4 .breadcrumb {
   position: relative;
@@ -2893,7 +2891,7 @@ button[type="submit"] .form-loading {
 .link-list a:after {
   content: "\e628";
   font-family: 'themify';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2984,7 +2982,7 @@ button[type="submit"] .form-loading {
   color: #292929;
   content: "\e74b";
   font-family: 'themify';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3258,9 +3256,15 @@ img {
   min-height: 600px;
 }
 @media all and (max-width: 767px) {
+  .header-images, .page-title-1, .page-title-2{
+    display: none;
+    height: 0;
+    width: 0
+  }
+
   .image-slider.height-70 .slides li {
     height: auto;
-    min-height: none;
+    /*min-height: none;*/
     padding: 80px 0;
   }
   .image-slider.height-70 .v-align-transform {
@@ -3276,7 +3280,7 @@ img {
 .flex-direction-nav a.flex-prev:before {
   content: "\e649";
   font-family: 'themify';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3529,7 +3533,7 @@ img {
 .lb-nav a.lb-prev:before {
   content: "\e646";
   font-family: 'themify';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4372,6 +4376,7 @@ video {
   max-height: 640px;
   overflow: hidden;
   padding: 0;
+  
 }
 .image-square .image,
 .image-square > .content {
@@ -4932,6 +4937,9 @@ video {
   }
 }
 /*!---------- 36. FOOTERS ----------*/
+footer, .sub-footer{
+  padding: 0 5px;
+}
 footer.bg-dark a {
   color: #fff;
 }
