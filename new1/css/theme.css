@@ -68,7 +68,16 @@ ul {
   list-style: none;
 }
 ul.bullets {
-  list-style: inside;
+  /*list-style: inside;*/
+}
+.modal-body > li{
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+  padding: 0 20px !important;
+  text-indent: -2em !important;
+  -webkit-appearance:inherit;
+  -moz-text-size-adjust:;
+
 }
 .main-container {
   clear: both;
@@ -3255,8 +3264,10 @@ img {
   height: 70vh;
   min-height: 600px;
 }
+
+
 @media all and (max-width: 767px) {
-  .header-images, .page-title-1, .page-title-2{
+  .header-images, .page-title-1, .page-title-2, .page-title-4{
     display: none;
     height: 0;
     width: 0
