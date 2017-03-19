@@ -895,6 +895,7 @@ nav .btn,
   height: auto;
 }
 .nav-utility {
+  background-color: #f6f717;
   height: 45px;
   line-height: 43px;
   border-bottom: 1px solid #ccc;
