@@ -906,9 +906,9 @@ nav .btn,
   top: 1px;
 }
 .nav-bar {
-  height: 70px;
-  max-height: 70px;
-  line-height: 70px;
+  height: 80px;
+  max-height: 83px;
+  line-height: 78px;
   border-bottom: 1px solid #ccc;
 }
 .nav-bar .module,
@@ -920,7 +920,7 @@ nav .btn,
   height: 55px;
 }
 .logo {
-  max-height: 80%;
+  max-height: 105%;
 }
 .logo-light {
   display: none;
